@@ -14,7 +14,7 @@ Citation key:
 
 SCRR is a low-latency, zero-configuration, and fair packet scheduling paradigm that aims to replace existing fair packet schedulers such as Deficit Round-Robin (DRR).
 
-This repository contains the qdisc implementation of SCRR and all the packets schedulers we tested in our paper, as well as tc modules and Linux kernel patches to replicate our test environment. Check the paper for explanation of the provided schduling modules.
+This repository contains the qdisc implementation of SCRR and all the packets schedulers we tested in our paper, as well as tc modules and Linux kernel patches to replicate our test environment. The repository is forked from https://github.com/jean2/scrr which may contain a more up to date codebase for the schedulers. Check the paper for the explanation of the provided schduling modules.
 
 ## Setting Up The Environment
 
